@@ -1,0 +1,19 @@
+#check balance
+#GET http://localhost:8080/api/wallet/balance
+#X-User-Id: 1
+
+#send money from user1 to user2
+#POST http://localhost:8080/api/wallet/send?receiverId=2&amount=100
+#X-User-Id: 1
+
+# Get Friend List
+#GET http://localhost:8080/api/wallet/friends
+#X-User-Id: 1
+
+#check transactions
+#GET http://localhost:8080/api/wallet/transactions
+#X-User-Id: 1
+
+# Get Transaction Details
+#GET http://localhost:8080/api/wallet/transactions/2
+#X-User-Id: 1
